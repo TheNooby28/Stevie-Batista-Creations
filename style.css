@@ -1,0 +1,53 @@
+/* Pretty much just variables I think */
+:root {
+    --topbar-h: 100px;
+    --gutter: 20px;
+}
+/* EVERYTHING */
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+/* TOPBAR STUFF */
+.topbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: black;
+    padding-top: 24px;
+    height: var(--topbar-h);
+    align-items: center;
+    display: flex;
+}
+.topbar img {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.topbar p {
+    color: white;
+    font-size: 25px;
+}
+.topbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top:0;
+    right:0;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.topbar ul li {
+    display: inline-block;
+    padding-left: 300px;
+}
+.topbar ul li a {
+    display: white;
+    color: white;
+    text-decoration: none;
+}
+/* MAIN HOME PAGE */
+.HomeMain img {
+    margin: 0 0 0 0;
+}
